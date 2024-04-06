@@ -1,0 +1,38 @@
+.grid_container{
+    display: grid;
+    grid-template-areas: "header"
+    "historia"
+    "sidebar""menuHamburguesa"
+    "footer";
+    grid-gap: 10px;
+}
+
+.header{
+    grid-area: header;
+    background-color: rgb(102, 163, 163);
+}
+
+.h1{
+background-color: burlywood;
+}
+
+.historia{
+    grid-area: historia;
+    background-color: beige;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: aqua;
+}
+
+.menuHamburguesa{
+    grid-area: menuHamburguesa;
+}
+.imagen1{
+    grid-area: imagen1;
+}
+
+.footer{
+    grid-area: footer;
+}
